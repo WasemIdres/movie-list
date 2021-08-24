@@ -73,6 +73,15 @@ form label {
     display: inline-block;
 }
 
+table footer {
+    background-color: #77ACF1;
+}
+
+img {
+    width: 60px;
+    height: 80px;
+}
+
 footer {
     background-color: #053742;
     color: #E8F0F6;
