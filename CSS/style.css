@@ -17,14 +17,20 @@ header {
     font-family: 'Roboto', sans-serif;
     font-weight: 650;
 }
-
+main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px ;
+    
+}
 #inline {
     display: inline;
 }
 
 fieldset {
     width: 450px;
-    margin: 100px 250px;
+    /* margin-top: 100px ;
+    margin-left: 400px ; */
     box-sizing: border-box;
     border: 3px dashed #D0D0D0;
     border-radius: 6px;
@@ -71,10 +77,29 @@ form label {
 
 #table {
     display: inline-block;
+    width: 400px;
+   
+}
+tr:nth-child(odd){
+    background-color:#A2DBFA ;
+}
+tr:nth-child(even){
+background-color:  #77ACF1;
+}
+tr{
+    display: grid;
+    grid-template-columns: .3fr 3fr 2fr 1.5fr;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0px 10px 10px;
+    text-align: initial;
+}
+td:first-child{
+    margin-right: 40px;
 }
 
-table footer {
-    background-color: #77ACF1;
+#remove{
+    cursor: pointer;
 }
 
 img {
@@ -87,4 +112,7 @@ footer {
     color: #E8F0F6;
     display: flex;
     justify-content: center;
+    position:absolute;
+    bottom:0;
+    width: 100%;
 }
