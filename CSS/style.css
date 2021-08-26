@@ -78,7 +78,7 @@ form label {
 #table {
     display: inline-block;
     width: 400px;
-   
+     margin-top: 20px;
 }
 tr:nth-child(odd){
     background-color:#A2DBFA ;
