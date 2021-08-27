@@ -88,14 +88,20 @@ background-color:  #77ACF1;
 }
 tr{
     display: grid;
-    grid-template-columns: .3fr 3fr 2fr 1.5fr;
+    grid-template-columns: .1fr 2fr 2fr 1.5fr;
     text-align: center;
     font-size: 18px;
     padding: 10px 0px 10px 10px;
     text-align: initial;
 }
 td:first-child{
-    margin-right: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #remove{
